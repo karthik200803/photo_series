@@ -1,0 +1,87 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    display: flex;
+    position:relative;
+    justify-content:space-between;
+    padding: 4px;
+    margin: 5px;
+
+}
+
+.nav-links{
+    display: flex;
+    gap: 8px;
+}
+
+.nav-link{
+    text-decoration: none;
+}
+
+.nav-link a{
+    cursor: pointer;
+}
+
+.nav-link a:hover{
+    color: red;
+    transform: scale(1.1px);
+}
+
+.slots{
+    margin: 2px;
+
+}
+
+.slot1{
+    position: relative;
+    top: 7%;
+    left: 6%;
+    border:1px solid;
+    padding:14px;
+    gap: 8px;
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    margin: 4px;
+
+}
+
+.slot2{
+    position: relative;
+    top: 7%;
+    left: 6%;
+    border:1px solid;
+    padding:14px;
+    gap: 8px;
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    margin: 4px;
+}
+
+.slot3{
+    position: relative;
+    top: 7%;
+    left: 6%;
+    border:1px solid;
+    padding:14px;
+    gap: 8px;
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    margin: 4px;
+}
+
+.imge{
+    height: 220px;
+    width: 220px;
+    display: flex;
+}
+
+.imge:hover{
+    transform: scale(0.9);
+    transition: 0.3s;
+}
